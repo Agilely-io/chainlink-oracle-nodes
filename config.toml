@@ -1,0 +1,17 @@
+[Log]
+Level = 'warn'
+
+[WebServer]
+AllowOrigins = '*'
+SecureCookies = false
+
+[WebServer.TLS]
+HTTPSPort = 0
+
+[[EVM]]
+ChainID = '421613'
+
+[[EVM.Nodes]]
+Name = 'Arbitrum Goerli'
+WSURL = 'wss://arb-goerli.g.alchemy.com/v2/7YO_KOMmBNgeWZAZQZOFqqlY4RxRqtG7'
+HTTPURL = 'https://arb-goerli.g.alchemy.com/v2/7YO_KOMmBNgeWZAZQZOFqqlY4RxRqtG7'
